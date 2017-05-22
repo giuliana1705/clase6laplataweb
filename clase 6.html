@@ -1,2 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>clase 6-diseño responsivo</title>
+	<meta charset = "utf-8">
+	<style type="text/css">
+
+.pepsi1 {
+	width: 50%;
+	float: left;
+}
+.im1 {
+	width: 100%;
+}
+.pepsi2 {
+	width: 25%;
+	float:left;
+}
+.im2 {
+	width: 100%;
+}
+.gato1 {
+	width: 25%;
+	float:left;
+}
 .im3 {
 	width: 100%;
+}
+
+
+@media (min-width: 480px) and (max-width: 600px){
+
+.pepsi1 {
+	width: 100%;
+	float: none;
+}
+.pepsi2 {
+	width: 100%;
+	float:none;
+}
+.gato1 {
+	width: 100%;
+	float:none;
+}
+
+}
+
+
+</style>
+</head>
+<body>
+
+<h1> Clase 6 </h1>
+<div class= "pepsi1">
+<img class= "im1" src = "https://keepingupdc.com/wp-content/uploads/2017/04/pepsi_by_esaber-d4sk6fn.jpg" alt= "LOGO PEPSI"/>
+</div>
+<div class = "pepsi2">
+<img  class = "im2" src= "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSecy6ktvp8nUEOWXFjwcNgWFiQ4h6Ia51OP-cCRf3ht-rqrjUA"/>
+</div>
+<div class = "gato1">
+<img class= "im3" src = "https://i.ytimg.com/vi/NbPE205VDsk/maxresdefault.jpg">
+</div>
+</body>
+</html>
